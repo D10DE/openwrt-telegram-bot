@@ -34,7 +34,7 @@ Copy the files of this repo under `/` directory of your Lede/Openwrt system.
 Set files as executable with commands:
 
 ```sh
-chmod +x -R /usr/lib/telegram-bot/* /usr/lib/telegram-bot/functions/*
+chmod +x -R /usr/lib/telegram-bot/* /usr/lib/telegram-bot/plugins/functions/*
 chmod +x /etc/init.d/telegram_bot
 service telegram_bot enable
 ```
